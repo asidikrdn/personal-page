@@ -17,7 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]](https://github.com/asidikrdn/personalpage_v2/graphs/contributors)
+<!-- [![Contributors][contributors-shield]](https://github.com/asidikrdn/personalpage_v2/graphs/contributors) -->
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/asidikrdn/)
 
 
@@ -34,7 +34,7 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/asidikrdn/personalpage_v2"><strong>Explore the docs »</strong></a>
+    <!-- <a href="https://github.com/asidikrdn/personalpage_v2"><strong>Explore the docs »</strong></a> -->
     <!-- <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
