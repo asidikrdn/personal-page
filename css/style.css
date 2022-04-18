@@ -18,6 +18,15 @@ header img {
   transform: translateY(-10%);
 }
 
+#navbarMobile .container-fluid{
+  bottom: 0;
+}
+
+#navbarMobile a.active {
+  border-bottom: 1px solid orange;
+}
+
+
 
 /* Content */
 #section-title h2{

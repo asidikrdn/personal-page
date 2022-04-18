@@ -27,7 +27,7 @@
           <!-- Header Web Version -->
           <header id="headerWeb">
             <div
-              class="container-fluid bg-dark text-light d-md-flex flex-column align-items-center"
+              class="container-fluid bg-dark text-light d-md-flex flex-column align-items-center d-none"
             >
               <h1 class="display-5 text-center">Ahmad Sidik Rudini</h1>
               <p class="lead my-2">Web Developer</p>
@@ -40,10 +40,22 @@
           </header>
         </div>
         <div class="col-md-9 offset-md-3 p-0">
+          <!-- Header Mobile Version -->
+          <header id="headerMobile">
+            <div class="d-md-none d-flex flex-row flex-wrap justify-content-center p-4">
+              <img
+                src="img/profil.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h2 class="w-100 text-center my-2">Ahmad Sidik Rudini</h2>
+              <p class="lead">Web Developer</p>
+            </div>
+          </header>
 
           <!-- Navbar Web Version -->
           <nav id="navbarWeb">
-            <div class="container-fluid p-0 d-md-block">
+            <div class="container-fluid p-0 d-md-block d-none">
               <div
                 class="navbar navbar-expand navbar-dark bg-dark bg-opacity-75"
               >
@@ -60,6 +72,38 @@
                   <div class="nav-item mx-2">
                     <a href="contact.html" class="nav-link">Contact</a>
                   </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Navbar Mobile Version -->
+          <nav id="navbarMobile">
+            <div
+              class="container-fluid bg-dark p-1 bg-opacity-100 position-fixed d-md-none"
+            >
+              <div
+                class="navbar navbar-expand navbar-dark d-flex justify-content-around"
+              >
+                <div class="nav-item mx-2">
+                  <a href="index.html" class="nav-link active text-light">
+                    <i class="bi-person-fill"></i>
+                  </a>
+                </div>
+                <div class="nav-item mx-2">
+                  <a href="resume.html" class="nav-link text-light">
+                    <i class="bi-file-person-fill"></i>
+                  </a>
+                </div>
+                <div class="nav-item mx-2">
+                  <a href="portfolio.html" class="nav-link text-light">
+                    <i class="bi-folder2-open"></i>
+                  </a>
+                </div>
+                <div class="nav-item mx-2">
+                  <a href="contact.html" class="nav-link text-light">
+                    <i class="bi-person-lines-fill"></i>
+                  </a>
                 </div>
               </div>
             </div>
