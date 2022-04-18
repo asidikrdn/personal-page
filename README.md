@@ -192,9 +192,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ahmad Sidik Rudini - [@twitter_handle](https://twitter.com/twitter_handle) - sidikrudini16@gmail.com
+Ahmad Sidik Rudini - <!-- [@twitter_handle](https://twitter.com/twitter_handle) - -->sidikrudini16@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+<!-- Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
