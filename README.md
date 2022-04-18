@@ -18,7 +18,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield][https://www.linkedin.com/in/asidikrdn/]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/asidikrdn/)
 
 
 
