@@ -28,11 +28,9 @@
   <!-- <a href="https://github.com/asidikrdn/personalpage_v2">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
-
-<h3 align="left">Personal Page v2</h3>
+<!-- <h3 align="left">Personal Page v2</h3> -->
 
   <p align="left">
-    project_description
     <br />
     <!-- <a href="https://github.com/asidikrdn/personalpage_v2"><strong>Explore the docs »</strong></a> -->
     <!-- <br />
@@ -86,7 +84,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
+<br />
+## Built With
 
 <!-- * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
@@ -94,8 +93,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Angular](https://angular.io/)
 * [Svelte](https://svelte.dev/)
 * [Laravel](https://laravel.com) -->
-* [HTML]()
-* [CSS3]()
+* HTML
+* CSS3
 * [Bootstrap](https://getbootstrap.com)
 <!-- * [JQuery](https://jquery.com) -->
 
