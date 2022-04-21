@@ -8,6 +8,7 @@ header img {
 }
 
 
+
 /* Navbar */
 #navbarWeb a.active {
   border-bottom: 1px solid orangered;
@@ -20,16 +21,17 @@ header img {
 
 #navbarMobile .container-fluid{
   bottom: 0;
+  z-index: 999;
 }
 
 #navbarMobile a.active {
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid orangered;
 }
 
 
 
 /* Content */
 #section-title h2{
-  background-color: orange;
+  background-color: orangered;
   border-radius: 0 0 25px 0;
 }
