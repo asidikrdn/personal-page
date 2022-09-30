@@ -14,7 +14,9 @@ const MainContent = (props) => {
             intro={props.userData.intro}
           />
         )}
-        {props.navPosition === "education" && <Education />}
+        {props.navPosition === "education" && (
+          <Education education={props.userData.edukasi} />
+        )}
         {props.navPosition === "skills" && <Skills />}
         {props.navPosition === "portfolio" && <Portfolio />}
         {props.navPosition === "contact" && <Contact />}
