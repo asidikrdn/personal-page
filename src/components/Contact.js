@@ -23,7 +23,7 @@ const Contact = (props) => {
             <h1>Download CV</h1>
           </a>
         </div>
-        <div className="col-12 col-md-6 pe-5">
+        <div className="col-12 col-md-6 px-5">
           <h1 className="fw-semibold mb-4 display-5">Contact Details</h1>
           <div className="row g-0 my-3 display-6">
             <div className="col-2">
@@ -46,7 +46,7 @@ const Contact = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6 ps-5">
+        <div className="col-12 col-md-6 px-5">
           <h1 className="fw-semibold text-center mb-3 display-5">Follow Me</h1>
           <div className="d-flex justify-content-center display-3">
             <a

@@ -51,7 +51,7 @@
   }
   .judulHalaman {
     color: #005d66;
-    text-shadow: 5px 2px 7px black;
+    text-shadow: 2px 2px 7px black;
   }
   .education-img {
     width: 250px;
@@ -114,9 +114,16 @@
     margin-top: 10vh;
   }
   /* Intro */
-  .judulIntro {
+  .judulHalaman {
     color: #005d66;
-    text-shadow: 5px 2px 7px black;
+    text-shadow: 2px 2px 7px black;
+  }
+  .education-img {
+    width: 250px;
+    height: 250px;
+  }
+  #contact h1 {
+    text-align: center;
   }
   /* ================= */
   /* AKHIR MAIN */
