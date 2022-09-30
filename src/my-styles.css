@@ -1,0 +1,119 @@
+/* Styling untuk komputer */
+@media (min-width: 768px) {
+  /* ================= */
+  /* HEADER */
+  /* ================= */
+  header {
+    width: 25vw;
+    height: 100vh;
+    background-color: #005d66;
+    /* opacity: 75%; */
+  }
+  header img {
+    border: 2px solid #f9a01b;
+  }
+  /* ================= */
+  /* AKHIR HEADER */
+  /* ================= */
+
+  /* ================= */
+  /* NAVBAR */
+  /* ================= */
+  nav {
+    margin-left: 25vw;
+    height: 4rem;
+    /* height: 10vh; */
+    background-color: #09707a;
+  }
+  nav .navbar {
+    height: 100%;
+  }
+  nav .nav-link {
+    cursor: pointer;
+  }
+  nav .nav-link:hover {
+    border-bottom: 2px solid orange;
+  }
+  nav .active {
+    border-bottom: 2px solid orangered;
+  }
+  /* ================= */
+  /* AKHIR NAVBAR */
+  /* ================= */
+
+  /* ================= */
+  /* MAIN */
+  /* ================= */
+  main {
+    margin-left: 25vw;
+    margin-top: 4rem;
+    /* margin-top: 10vh; */
+  }
+
+  /* Intro */
+  .judulIntro {
+    color: #005d66;
+    text-shadow: 5px 2px 7px black;
+  }
+  /* ================= */
+  /* AKHIR MAIN */
+  /* ================= */
+}
+
+/* Styling untuk smartphone */
+@media (max-width: 768px) {
+  /* ================= */
+  /* HEADER */
+  /* ================= */
+  header {
+    display: none;
+    width: 25vw;
+    height: 100vh;
+    background-color: #005d66;
+    /* opacity: 75%; */
+  }
+  header img {
+    border: 2px solid #f9a01b;
+  }
+  /* ================= */
+  /* AKHIR HEADER */
+  /* ================= */
+
+  /* ================= */
+  /* NAVBAR */
+  /* ================= */
+  nav {
+    /* margin-left: 25vw; */
+    /* height: 5rem; */
+    height: 10vh;
+    background-color: #09707a;
+  }
+  nav .nav-link {
+    cursor: pointer;
+  }
+  nav .navbar-collapse {
+    margin-top: 15px;
+    height: 100%;
+    background-color: #005d66;
+  }
+  /* ================= */
+  /* AKHIR NAVBAR */
+  /* ================= */
+
+  /* ================= */
+  /* MAIN */
+  /* ================= */
+  main {
+    /* margin-left: 25vw; */
+    /* margin-top: 5rem; */
+    margin-top: 10vh;
+  }
+  /* Intro */
+  .judulIntro {
+    color: #005d66;
+    text-shadow: 5px 2px 7px black;
+  }
+  /* ================= */
+  /* AKHIR MAIN */
+  /* ================= */
+}
