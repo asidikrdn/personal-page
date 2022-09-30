@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 
-const dataSidik = {
+const dataUserID = {
   "nama-lengkap": "Ahmad Sidik Rudini",
   "nama-panggilan": "Sidik",
   peran: "Front-End Web Developer",
@@ -15,19 +15,23 @@ const dataSidik = {
   web pages.`,
     `I am interested in becoming a Professional Front-End Web Developer. I
   have studied some basic web programming materials such as HTML, CSS, 
-  and JavaScript. Recently, I've completed my ReactJS Course in
+  and Javascript. Recently, I've completed my ReactJS Course in
   NIOMIC Education.`,
     `And now I am very fully prepared and looking forward to new challenges
   in my Front-End Web Development career.`,
   ],
   edukasi: [
     {
-      "nama-institusi": "SMK Negeri 3 Bogor",
+      institusi: "SMK Negeri 3 Bogor",
+      jurusan: "Computer and Network Engineering",
+      ipk: "80.2",
       "tahun-belajar": "2014-2017",
       logo: "../img/logo-smk3.png",
     },
     {
-      "nama-institusi": "Ibn Khaldun University",
+      institusi: "Ibn Khaldun University",
+      jurusan: "Informatics Engineering",
+      ipk: "3.83",
       "tahun-belajar": "2020-Now",
       logo: "../img/logo-uika.png",
     },
@@ -45,7 +49,7 @@ const dataSidik = {
 };
 
 const App = () => {
-  const [userData] = useState(dataSidik);
+  const [userData] = useState(dataUserID);
   const [navPosition, setNavPosition] = useState("intro");
 
   const handleNavigationClick = (e) => {
