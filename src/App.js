@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 
-const dataUserID = {
+const dataUserEN = {
   "nama-lengkap": "Ahmad Sidik Rudini",
   "nama-panggilan": "Sidik",
   peran: "Front-End Web Developer",
@@ -49,7 +49,7 @@ const dataUserID = {
 };
 
 const App = () => {
-  const [userData] = useState(dataUserID);
+  const [userData] = useState(dataUserEN);
   const [navPosition, setNavPosition] = useState("intro");
 
   const handleNavigationClick = (e) => {
