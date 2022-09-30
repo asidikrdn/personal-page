@@ -1,7 +1,7 @@
 const Education = (props) => {
   console.log(props.education);
   return (
-    <>
+    <section id="education" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Education</h1>
       <div className="container d-flex justify-content-around mt-5 py-5">
         {props.education.map((data, index) => {
@@ -23,7 +23,7 @@ const Education = (props) => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
 
