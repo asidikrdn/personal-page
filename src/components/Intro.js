@@ -1,7 +1,7 @@
 const Intro = (props) => {
   // console.log(props.intro);
   return (
-    <>
+    <section id="intro" className="container-fluid py-2 px-4">
       <h1 className="display-2 fw-bold judulHalaman">Hi, I'm {props.name}</h1>
       {props.intro.map((element, index) => {
         let text;
@@ -35,7 +35,7 @@ const Intro = (props) => {
           </p>
         );
       })}
-    </>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@
     /* opacity: 75%; */
   }
   header img {
-    border: 2px solid #f9a01b;
+    border: 2px solid orangered;
   }
   /* ================= */
   /* AKHIR HEADER */
@@ -53,9 +53,12 @@
     color: #005d66;
     text-shadow: 5px 2px 7px black;
   }
-  .education-img{
+  .education-img {
     width: 250px;
     height: 250px;
+  }
+  #contact i:hover {
+    color: #005d66;
   }
   /* ================= */
   /* AKHIR MAIN */
