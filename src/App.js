@@ -54,10 +54,11 @@ const App = () => {
   const [navPosition, setNavPosition] = useState("intro");
 
   const handleNavigationClick = (e) => {
+    console.log(e.target.innerHTML.toLowerCase());
     setNavPosition(e.target.innerHTML.toLowerCase());
   };
 
-  // console.log(navPosition);
+  console.log(navPosition);
   return (
     <>
       <Header
