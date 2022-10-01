@@ -3,23 +3,25 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 
+// ====================
+// Data User
+// ====================
 const dataUserEN = {
   "nama-lengkap": "Ahmad Sidik Rudini",
   "nama-panggilan": "Sidik",
   peran: "Front-End Web Developer",
   "foto-profil": "../img/profil.jpg",
   intro: [
-    `I'am a student of Informatics Engineering (extension class) at Ibn
-  Khaldun University. The activity that I do apart from being a student is
-  actively learning web programming independently to increase my skills.
-  From these activities, I have created several simple static and dynamic
-  web pages.`,
-    `I am interested in becoming a Professional Front-End Web Developer. I
-  have studied some basic web programming materials such as HTML, CSS, 
-  and Javascript. Recently, I've completed my ReactJS Course in
-  NIOMIC Education.`,
-    `And now I am very fully prepared and looking forward to new challenges
-  in my Front-End Web Development career.`,
+    `I'am a student of Informatics Engineering (extension class) at Ibn Khaldun University. 
+    The activity that I do apart from being a student is actively learning web programming independently to increase my skills. 
+    From these activities, I have created several simple static and dynamic web pages.`,
+
+    `I am interested in becoming a Professional Front-End Web Developer. 
+    I have studied some basic web programming materials such as HTML, CSS, and Javascript. 
+    I also studied some Front-End Web Development Libraries like Bootstrap and ReactJS.`,
+
+    `And now I am very fully prepared and looking forward to new challenges in my Front-End Web Development
+    career.`,
   ],
   edukasi: [
     {
@@ -170,8 +172,11 @@ const dataUserEN = {
     codepen: "https://codepen.io/asidikrdn",
   },
   resume:
-    "https://drive.google.com/file/d/1XC2K-8S7wFXkdJ84c8cllMslbYGPoJEB/view?usp=sharing",
+    "https://drive.google.com/file/d/1N26Eh4KF_LGFEgW2ejV7GbSJm6BzSa3V/view?usp=sharing",
 };
+// ====================
+// End of Data User
+// ====================
 
 const App = () => {
   const [userData] = useState(dataUserEN);
