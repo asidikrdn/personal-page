@@ -1,6 +1,6 @@
 import Intro from "./Intro";
 import Education from "./Education";
-import Skills from "./Skills";
+import Certification from "./Certification";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
@@ -16,7 +16,9 @@ const MainContent = (props) => {
       {props.navPosition === "education" && (
         <Education education={props.userData.edukasi} />
       )}
-      {props.navPosition === "skills" && <Skills />}
+      {props.navPosition === "certification" && (
+        <Certification certificate={props.userData.sertifikasi} />
+      )}
       {props.navPosition === "portfolio" && (
         <Portfolio portfolio={props.userData.portfolio} />
       )}

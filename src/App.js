@@ -37,7 +37,82 @@ const dataUserEN = {
       logo: "../img/logo-uika.png",
     },
   ],
-  sertifikasi: [],
+  sertifikasi: [
+    {
+      judul: "Javascript DOM",
+      nomor: "00018310005/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "September 2022",
+      keahlian: ["html5", "css3", "js"],
+      tautan: "https://certified.niomic.com/?number=00018310005/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-JavaScript_DOM.jpg",
+    },
+    {
+      judul: "Javascript Basic",
+      nomor: "00018210004/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "September 2022",
+      keahlian: ["js"],
+      tautan: "https://certified.niomic.com/?number=00018210004/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-JavaScript_Basic.jpg",
+    },
+    {
+      judul: "Git & Github",
+      nomor: "00018110003/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "September 2022",
+      keahlian: ["git", "github"],
+      tautan: "https://certified.niomic.com/?number=00018110003/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-Git_Github.jpg",
+    },
+    {
+      judul: "CSS",
+      nomor: "00018010002/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "September 2022",
+      keahlian: ["html5", "css3", "bootstrap", "font-awesome"],
+      tautan: "https://certified.niomic.com/?number=00018010002/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-CSS.jpg",
+    },
+    {
+      judul: "HTML",
+      nomor: "00017910001/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "September 2022",
+      keahlian: ["html5"],
+      tautan: "https://certified.niomic.com/?number=00017910001/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-HTML.jpg",
+    },
+    {
+      judul: "JavaScript Algorithms and Data Structures",
+      nomor: "",
+      penerbit: "freeCodeCamp",
+      "waktu-terbit": "August 2022",
+      keahlian: ["js"],
+      tautan:
+        "https://freecodecamp.org/certification/asidikrdn/javascript-algorithms-and-data-structures",
+      gambar: "../img/freeCodeCamp-JavaScript.jpg",
+    },
+    {
+      judul: "Responsive Web Design",
+      nomor: "",
+      penerbit: "freeCodeCamp",
+      "waktu-terbit": "August 2022",
+      keahlian: ["html5", "css3"],
+      tautan:
+        "https://freecodecamp.org/certification/asidikrdn/responsive-web-design",
+      gambar: "../img/freeCodeCamp-Responsive_Web_Design.jpg",
+    },
+    {
+      judul: "Belajar Dasar Pemrograman JavaScript",
+      nomor: "QLZ98M3L9X5D",
+      penerbit: "Dicoding Indonesia",
+      "waktu-terbit": "June 2021 - June 2024",
+      keahlian: ["js"],
+      tautan: "https://www.dicoding.com/certificates/QLZ98M3L9X5D",
+      gambar: "../img/DICODING-JavaScript.jpg",
+    },
+  ],
   portfolio: [
     {
       judul: "Landing Page",
@@ -103,11 +178,11 @@ const App = () => {
   const [navPosition, setNavPosition] = useState("intro");
 
   const handleNavigationClick = (e) => {
-    console.log(e.target.innerHTML.toLowerCase());
+    // console.log(e.target.innerHTML.toLowerCase());
     setNavPosition(e.target.innerHTML.toLowerCase());
   };
 
-  console.log(navPosition);
+  // console.log(navPosition);
   return (
     <>
       <Header

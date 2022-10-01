@@ -20,7 +20,7 @@ const Portfolio = (props) => {
                     {data.teknologi.map((tech, index) => (
                       <i
                         key={`tech-${index}`}
-                        class={`fa-brands fa-${tech} mx-3`}
+                        className={`fa-brands fa-${tech} mx-3`}
                       ></i>
                     ))}
                   </p>
