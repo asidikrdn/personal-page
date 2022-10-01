@@ -89,7 +89,7 @@ const Navbar = (props) => {
                 }
                 onClick={props.onNavClick}
               >
-                <i className="fa-solid fa-house-user"></i>
+                <i id="intro" className="fa-solid fa-house-user"></i>
               </p>
             </li>
             <li className="nav-item mx-3">
@@ -102,7 +102,7 @@ const Navbar = (props) => {
                 }
                 onClick={props.onNavClick}
               >
-                <i className="fa-solid fa-user-graduate"></i>
+                <i id="education" className="fa-solid fa-user-graduate"></i>
               </p>
             </li>
             <li className="nav-item mx-3">
@@ -115,7 +115,7 @@ const Navbar = (props) => {
                 }
                 onClick={props.onNavClick}
               >
-                <i className="fa-solid fa-certificate"></i>
+                <i id="certification" className="fa-solid fa-certificate"></i>
               </p>
             </li>
             <li className="nav-item mx-3">
@@ -128,7 +128,7 @@ const Navbar = (props) => {
                 }
                 onClick={props.onNavClick}
               >
-                <i className="fa-solid fa-laptop-code"></i>
+                <i id="portfolio" className="fa-solid fa-laptop-code"></i>
               </p>
             </li>
             <li className="nav-item mx-3">
@@ -141,7 +141,7 @@ const Navbar = (props) => {
                 }
                 onClick={props.onNavClick}
               >
-                <i className="fa-solid fa-address-book"></i>
+                <i id="contact" className="fa-solid fa-address-book"></i>
               </p>
             </li>
           </ul>
