@@ -1,4 +1,4 @@
-/* Styling untuk komputer */
+/* STYLING for DEKSTOP VIEW */
 @media (min-width: 768px) {
   /* ================= */
   /* HEADER */
@@ -65,7 +65,7 @@
   /* ================= */
 }
 
-/* Styling untuk smartphone */
+/* STYLING for MOBILE VIEW */
 @media (max-width: 768px) {
   /* ================= */
   /* HEADER */
@@ -96,11 +96,6 @@
   nav .nav-link {
     cursor: pointer;
   }
-  nav .navbar-collapse {
-    margin-top: 15px;
-    height: 100%;
-    background-color: #005d66;
-  }
   /* ================= */
   /* AKHIR NAVBAR */
   /* ================= */
@@ -111,9 +106,11 @@
   main {
     /* margin-left: 25vw; */
     /* margin-top: 5rem; */
-    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
-  /* Intro */
+  #intro p {
+    text-align: justify;
+  }
   .judulHalaman {
     color: #005d66;
     text-shadow: 2px 2px 7px black;

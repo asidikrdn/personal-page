@@ -9,8 +9,11 @@ const MainContent = (props) => {
     <main>
       {props.navPosition === "intro" && (
         <Intro
+          fullname={props.userData["nama-lengkap"]}
           name={props.userData["nama-panggilan"]}
           intro={props.userData.intro}
+          role={props.userData.peran}
+          img={props.userData['foto-profil']}
         />
       )}
       {props.navPosition === "education" && (

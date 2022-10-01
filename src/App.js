@@ -178,8 +178,8 @@ const App = () => {
   const [navPosition, setNavPosition] = useState("intro");
 
   const handleNavigationClick = (e) => {
-    // console.log(e.target.innerHTML.toLowerCase());
-    setNavPosition(e.target.innerHTML.toLowerCase());
+    // console.log(e.target.id);
+    setNavPosition(e.target.id);
   };
 
   // console.log(navPosition);
