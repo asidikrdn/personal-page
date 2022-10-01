@@ -45,13 +45,13 @@ const Navbar = (props) => {
             <li className="nav-item mx-3">
               <p
                 className={
-                  props.navPosition === "skills"
+                  props.navPosition === "certification"
                     ? "nav-link mb-0 active"
                     : "nav-link mb-0"
                 }
                 onClick={props.onNavClick}
               >
-                Skills
+                Certification
               </p>
             </li>
             <li className="nav-item mx-3">
