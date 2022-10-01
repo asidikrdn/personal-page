@@ -115,15 +115,25 @@ const dataUserEN = {
   ],
   portfolio: [
     {
-      judul: "Landing Page",
-      gambar: "../img/landingpage.png",
-      deskripsi: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. 
-      Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, 
-      karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. 
-      Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
-      teknologi: ["html5", "css3", "bootstrap"],
-      repositori: "https://gitlab.com/asidikrdn/template-landingpage",
-      demo: "https://template-landingpage.netlify.app/",
+      judul: "Mini Expense Tracker",
+      gambar: "../img/mini-expense-tracker.png",
+      deskripsi: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, 
+      aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih 
+      antara keduanya.`,
+      teknologi: ["html5", "css3", "bootstrap", "react"],
+      repositori: "https://github.com/asidikrdn/mini-expense-tracker",
+      demo: "https://mini-expense-tracker.netlify.app/",
+    },
+    {
+      judul: "CRUD Mahasiswa",
+      gambar: "../img/crud-mahasiswa.png",
+      deskripsi: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. 
+      Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. 
+      Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, 
+      CRUD ini hanya disimpan di memory saja.`,
+      teknologi: ["html5", "css3", "bootstrap", "react"],
+      repositori: "https://github.com/asidikrdn/mini-crud-mahasiswa",
+      demo: "https://mini-crud-mahasiswa.netlify.app/",
     },
     {
       judul: "Sistem Informasi Laundry",
@@ -138,25 +148,15 @@ const dataUserEN = {
       demo: "https://project.bakulkode.web.id/laviola/",
     },
     {
-      judul: "CRUD Mahasiswa",
-      gambar: "../img/crud-mahasiswa.png",
-      deskripsi: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. 
-      Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. 
-      Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, 
-      CRUD ini hanya disimpan di memory saja.`,
-      teknologi: ["html5", "css3", "bootstrap", "react"],
-      repositori: "https://github.com/asidikrdn/mini-crud-mahasiswa",
-      demo: "https://mini-crud-mahasiswa.netlify.app/",
-    },
-    {
-      judul: "Mini Expense Tracker",
-      gambar: "../img/mini-expense-tracker.png",
-      deskripsi: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, 
-      aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih 
-      antara keduanya.`,
-      teknologi: ["html5", "css3", "bootstrap", "react"],
-      repositori: "https://github.com/asidikrdn/mini-expense-tracker",
-      demo: "https://mini-expense-tracker.netlify.app/",
+      judul: "Landing Page",
+      gambar: "../img/landingpage.png",
+      deskripsi: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. 
+      Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, 
+      karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. 
+      Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
+      teknologi: ["html5", "css3", "bootstrap"],
+      repositori: "https://gitlab.com/asidikrdn/template-landingpage",
+      demo: "https://template-landingpage.netlify.app/",
     },
   ],
   kontak: {
