@@ -1,7 +1,7 @@
 const Contact = (props) => {
   return (
-    <section id="contact" className="container-fluid p-0">
-      <div className="row p-4">
+    <section id="contact" className="container-fluid">
+      <div className="row pb-3">
         <div className="col-12 text-center my-5 pb-5">
           <h1 className="text-center display-1 judulHalaman fw-semibold">
             {props.name}
