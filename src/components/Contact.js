@@ -15,7 +15,7 @@ const Contact = (props) => {
             <h1>Hire Me</h1>
           </a>
           <a
-            href="https://drive.google.com/file/d/1qTz4VoBzEbGb7Pnnv37e9mRzuZEqeEhL/view?usp=sharing"
+            href={props.resumeLink}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"

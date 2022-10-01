@@ -5,7 +5,7 @@ const Header = (props) => {
         <h1 className=" pt-5">{props.fullname}</h1>
         <h5 className="opacity-75 mt-3">{props.role}</h5>
         <img
-          src="../img/profil.jpg"
+          src={props.img}
           alt="Foto Profil"
           className="img-fluid w-75 my-auto mx-auto rounded-circle"
         />

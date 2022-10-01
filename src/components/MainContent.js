@@ -17,10 +17,13 @@ const MainContent = (props) => {
         <Education education={props.userData.edukasi} />
       )}
       {props.navPosition === "skills" && <Skills />}
-      {props.navPosition === "portfolio" && <Portfolio />}
+      {props.navPosition === "portfolio" && (
+        <Portfolio portfolio={props.userData.portfolio} />
+      )}
       {props.navPosition === "contact" && (
         <Contact
           name={props.userData["nama-lengkap"]}
+          resumeLink={props.userData.resume}
           contact={props.userData.kontak}
         />
       )}

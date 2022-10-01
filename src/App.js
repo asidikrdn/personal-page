@@ -7,6 +7,7 @@ const dataUserEN = {
   "nama-lengkap": "Ahmad Sidik Rudini",
   "nama-panggilan": "Sidik",
   peran: "Front-End Web Developer",
+  "foto-profil": "../img/profil.jpg",
   intro: [
     `I'am a student of Informatics Engineering (extension class) at Ibn
   Khaldun University. The activity that I do apart from being a student is
@@ -36,7 +37,53 @@ const dataUserEN = {
       logo: "../img/logo-uika.png",
     },
   ],
-  keahlian: ["HTML", "CSS", "JavaScript", "ReactJS"],
+  sertifikasi: [],
+  portfolio: [
+    {
+      judul: "Landing Page",
+      gambar: "../img/landingpage.png",
+      deskripsi: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. 
+      Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, 
+      karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. 
+      Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
+      teknologi: ["html5", "css3", "bootstrap"],
+      repositori: "https://gitlab.com/asidikrdn/template-landingpage",
+      demo: "https://template-landingpage.netlify.app/",
+    },
+    {
+      judul: "Sistem Informasi Laundry",
+      gambar: "../img/sistem-informasi-laundry.png",
+      deskripsi: `Aplikasi sederhana untuk mengelola usaha laundry. 
+      Fitur utama yang terdapat pada aplikasi ini diantaranya Tampilan Dashboard, Daftar Layanan, 
+      Daftar Pelanggan, Daftar Transaksi, Daftar Petugas, dan Cetak Invoice.
+      Pada aplikasi ini terdapat 2 role user, yaitu admin dan karyawan dimana masing-masing role memiliki hak akses yang berbeda. 
+      Informasi lebih lanjut dapat dilihat pada repository.`,
+      teknologi: ["html5", "css3", "bootstrap", "php"],
+      repositori: "https://gitlab.com/asidikrdn/PPW_LaViola-Laundry",
+      demo: "https://project.bakulkode.web.id/laviola/",
+    },
+    {
+      judul: "CRUD Mahasiswa",
+      gambar: "../img/crud-mahasiswa.png",
+      deskripsi: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. 
+      Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. 
+      Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, 
+      CRUD ini hanya disimpan di memory saja.`,
+      teknologi: ["html5", "css3", "bootstrap", "react"],
+      repositori: "https://github.com/asidikrdn/mini-crud-mahasiswa",
+      demo: "https://mini-crud-mahasiswa.netlify.app/",
+    },
+    {
+      judul: "Mini Expense Tracker",
+      gambar: "../img/mini-expense-tracker.png",
+      deskripsi: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, 
+      aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih 
+      antara keduanya.`,
+      teknologi: ["html5", "css3", "bootstrap", "react"],
+      repositori: "https://github.com/asidikrdn/mini-expense-tracker",
+      demo: "https://mini-expense-tracker.netlify.app/",
+    },
+  ],
   kontak: {
     alamat: "Kota Bogor, Jawa Barat, Indonesia",
     email: "sidikrudini16@gmail.com",
@@ -47,6 +94,8 @@ const dataUserEN = {
     linkedin: "https://www.linkedin.com/in/asidikrdn/",
     codepen: "https://codepen.io/asidikrdn",
   },
+  resume:
+    "https://drive.google.com/file/d/1XC2K-8S7wFXkdJ84c8cllMslbYGPoJEB/view?usp=sharing",
 };
 
 const App = () => {
@@ -64,6 +113,7 @@ const App = () => {
       <Header
         fullname={userData["nama-lengkap"]}
         role={userData.peran}
+        img={userData["foto-profil"]}
       ></Header>
       <Navbar
         navPosition={navPosition}
