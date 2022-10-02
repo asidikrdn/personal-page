@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = (props) => {
   return (
     <>
@@ -6,69 +7,59 @@ const Navbar = (props) => {
         <div className="navbar navbar-expand-md navbar-dark">
           <ul className="navbar-nav fs-5 text-uppercase text-light">
             <li className="nav-item mx-3">
-              <p
-                id="intro"
-                className={
-                  props.navPosition === "intro"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                Intro
-              </p>
+              <Link style={{ all: "unset" }} to="/">
+                <p
+                  id="intro"
+                  className={`nav-link mb-0 
+                  ${props.active === "intro" && "active"}`}
+                >
+                  Intro
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="education"
-                className={
-                  props.navPosition === "education"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                Education
-              </p>
+              <Link style={{ all: "unset" }} to="/education">
+                <p
+                  className={`nav-link mb-0 
+                  ${props.active === "education" && "active"}`}
+                  id="education"
+                >
+                  Education
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="certification"
-                className={
-                  props.navPosition === "certification"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                Certification
-              </p>
+              <Link style={{ all: "unset" }} to="/certification">
+                <p
+                  id="certification"
+                  className={`nav-link mb-0 
+                  ${props.active === "certification" && "active"}`}
+                >
+                  Certification
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="portfolio"
-                className={
-                  props.navPosition === "portfolio"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                Portfolio
-              </p>
+              <Link style={{ all: "unset" }} to="/portfolio">
+                <p
+                  id="portfolio"
+                  className={`nav-link mb-0 
+                  ${props.active === "portfolio" && "active"}`}
+                >
+                  Portfolio
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="contact"
-                className={
-                  props.navPosition === "contact"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                Contact
-              </p>
+              <Link style={{ all: "unset" }} to="/contact">
+                <p
+                  id="contact"
+                  className={`nav-link mb-0 
+                  ${props.active === "contact" && "active"}`}
+                >
+                  Contact
+                </p>
+              </Link>
             </li>
           </ul>
         </div>
@@ -80,145 +71,63 @@ const Navbar = (props) => {
         <div className="navbar navbar-expand navbar-dark">
           <ul className="navbar-nav fs-5 text-uppercase text-light w-100 d-flex justify-content-around">
             <li className="nav-item mx-3">
-              <p
-                id="intro"
-                className={
-                  props.navPosition === "intro"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                <i id="intro" className="fa-solid fa-house-user"></i>
-              </p>
+              <Link style={{ all: "unset" }} to="/">
+                <p
+                  id="intro"
+                  className={`nav-link mb-0 
+                  ${props.active === "intro" && "active"}`}
+                >
+                  <i className="fa-solid fa-house-user"></i>
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="education"
-                className={
-                  props.navPosition === "education"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                <i id="education" className="fa-solid fa-user-graduate"></i>
-              </p>
+              <Link style={{ all: "unset" }} to="/education">
+                <p
+                  className={`nav-link mb-0 
+                  ${props.active === "education" && "active"}`}
+                  id="education"
+                >
+                  <i className="fa-solid fa-user-graduate"></i>
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="certification"
-                className={
-                  props.navPosition === "certification"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                <i id="certification" className="fa-solid fa-certificate"></i>
-              </p>
+              <Link style={{ all: "unset" }} to="/certification">
+                <p
+                  id="certification"
+                  className={`nav-link mb-0 
+                  ${props.active === "certification" && "active"}`}
+                >
+                  <i className="fa-solid fa-certificate"></i>
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="portfolio"
-                className={
-                  props.navPosition === "portfolio"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                <i id="portfolio" className="fa-solid fa-laptop-code"></i>
-              </p>
+              <Link style={{ all: "unset" }} to="/portfolio">
+                <p
+                  id="portfolio"
+                  className={`nav-link mb-0 
+                  ${props.active === "portfolio" && "active"}`}
+                >
+                  <i className="fa-solid fa-laptop-code"></i>
+                </p>
+              </Link>
             </li>
             <li className="nav-item mx-3">
-              <p
-                id="contact"
-                className={
-                  props.navPosition === "contact"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                <i id="contact" className="fa-solid fa-address-book"></i>
-              </p>
+              <Link style={{ all: "unset" }} to="/contact">
+                <p
+                  id="contact"
+                  className={`nav-link mb-0 
+                  ${props.active === "contact" && "active"}`}
+                >
+                  <i className="fa-solid fa-address-book"></i>
+                </p>
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
-
-      {/* <nav className="position-fixed fixed-bottom w-100 d-block d-md-none">
-        <div className="navbar navbar-expand navbar-dark">
-          <ul className="navbar-nav fs-5 text-uppercase text-light w-100 d-flex justify-content-around">
-            <li className="nav-item mx-3">
-              <p
-                id="intro"
-                className={
-                  props.navPosition === "intro"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                A
-              </p>
-            </li>
-            <li className="nav-item mx-3">
-              <p
-                id="education"
-                className={
-                  props.navPosition === "education"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                B
-              </p>
-            </li>
-            <li className="nav-item mx-3">
-              <p
-                id="certification"
-                className={
-                  props.navPosition === "certification"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                C
-              </p>
-            </li>
-            <li className="nav-item mx-3">
-              <p
-                id="portfolio"
-                className={
-                  props.navPosition === "portfolio"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                D
-              </p>
-            </li>
-            <li className="nav-item mx-3">
-              <p
-                id="contact"
-                className={
-                  props.navPosition === "contact"
-                    ? "nav-link mb-0 active"
-                    : "nav-link mb-0"
-                }
-                onClick={props.onNavClick}
-              >
-                E
-              </p>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
       {/* End of Navbar Mobile */}
     </>
   );

@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Certification = (props) => {
+  useEffect(() => {
+    props.setPagePosition("certification");
+  }, [props]);
+
   return (
     <section id="certification" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">

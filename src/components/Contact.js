@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Contact = (props) => {
+  useEffect(() => {
+    props.setPagePosition("contact");
+  }, [props]);
+
   return (
     <section id="contact" className="container-fluid">
       <div className="row pb-3">
