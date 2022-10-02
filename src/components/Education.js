@@ -1,5 +1,11 @@
+import { useEffect } from "react";
+
 const Education = (props) => {
   // console.log(props.education);
+  useEffect(() => {
+    props.setPagePosition("education");
+  }, [props]);
+
   return (
     <section id="education" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Education</h1>

@@ -1,5 +1,11 @@
+import { useEffect } from "react";
+
 const Intro = (props) => {
   // console.log(props.intro);
+  useEffect(() => {
+    props.setPagePosition("intro");
+  }, [props]);
+
   return (
     <section id="intro" className="container-fluid py-2 px-4">
       {/* Tambahan untuk tampilan mobile */}

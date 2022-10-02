@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import Intro from "./Intro";
 import Education from "./Education";
 import Certification from "./Certification";
@@ -7,31 +8,67 @@ import Contact from "./Contact";
 const MainContent = (props) => {
   return (
     <main>
-      {props.navPosition === "intro" && (
-        <Intro
-          fullname={props.userData["nama-lengkap"]}
-          name={props.userData["nama-panggilan"]}
-          intro={props.userData.intro}
-          role={props.userData.peran}
-          img={props.userData['foto-profil']}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Intro
+              fullname={props.userData["nama-lengkap"]}
+              name={props.userData["nama-panggilan"]}
+              intro={props.userData.intro}
+              role={props.userData.peran}
+              img={props.userData["foto-profil"]}
+              setPagePosition={props.setPagePosition}
+            />
+          }
         />
-      )}
-      {props.navPosition === "education" && (
-        <Education education={props.userData.edukasi} />
-      )}
-      {props.navPosition === "certification" && (
-        <Certification certificate={props.userData.sertifikasi} />
-      )}
-      {props.navPosition === "portfolio" && (
-        <Portfolio portfolio={props.userData.portfolio} />
-      )}
-      {props.navPosition === "contact" && (
-        <Contact
-          name={props.userData["nama-lengkap"]}
-          resumeLink={props.userData.resume}
-          contact={props.userData.kontak}
+      </Routes>
+      <Routes>
+        <Route
+          path="/education"
+          element={
+            <Education
+              education={props.userData.edukasi}
+              setPagePosition={props.setPagePosition}
+            />
+          }
         />
-      )}
+      </Routes>
+      <Routes>
+        <Route
+          path="/certification"
+          element={
+            <Certification
+              certificate={props.userData.sertifikasi}
+              setPagePosition={props.setPagePosition}
+            />
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/portfolio"
+          element={
+            <Portfolio
+              portfolio={props.userData.portfolio}
+              setPagePosition={props.setPagePosition}
+            />
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/contact"
+          element={
+            <Contact
+              name={props.userData["nama-lengkap"]}
+              resumeLink={props.userData.resume}
+              contact={props.userData.kontak}
+              setPagePosition={props.setPagePosition}
+            />
+          }
+        />
+      </Routes>
     </main>
   );
 };

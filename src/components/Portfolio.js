@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Portfolio = (props) => {
+  useEffect(() => {
+    props.setPagePosition("portfolio");
+  }, [props]);
+
   return (
     <section id="portfolio" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Portfolio</h1>
