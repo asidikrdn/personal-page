@@ -36,6 +36,33 @@ const UserData = {
   ],
   sertifikasi: [
     {
+      judul: "React (Basic)",
+      nomor: "c337ec334756",
+      penerbit: "HackerRank",
+      "waktu-terbit": "Oktober 2022",
+      keahlian: ["js", "react"],
+      tautan: "https://www.hackerrank.com/certificates/c337ec334756",
+      gambar: "../img/HackerRank-React_Basic.png",
+    },
+    {
+      judul: "Javascript (Basic)",
+      nomor: "9d37ebe97fca",
+      penerbit: "HackerRank",
+      "waktu-terbit": "Oktober 2022",
+      keahlian: ["js"],
+      tautan: "https://www.hackerrank.com/certificates/9d37ebe97fca",
+      gambar: "../img/HackerRank-JavaScript_Basic.png",
+    },
+    {
+      judul: "Problem Solving (Basic)",
+      nomor: "610dbcd93d2e",
+      penerbit: "HackerRank",
+      "waktu-terbit": "Oktober 2022",
+      keahlian: ["js"],
+      tautan: "https://www.hackerrank.com/certificates/610dbcd93d2e",
+      gambar: "../img/HackerRank-ProblemSolving_Basic.png",
+    },
+    {
       judul: "Javascript DOM",
       nomor: "00018310005/NIOMIC/IX/2022",
       penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
@@ -167,7 +194,7 @@ const UserData = {
     codepen: "https://codepen.io/asidikrdn",
   },
   resume:
-    "https://drive.google.com/file/d/1N26Eh4KF_LGFEgW2ejV7GbSJm6BzSa3V/view?usp=sharing",
+    "https://drive.google.com/file/d/1sSn7iLJ8NThzR7OcmNKwa1Fz43EjNS7W/view?usp=sharing",
 };
 // ====================
 // End of Data User
