@@ -14,10 +14,15 @@ const Certification = (props) => {
         {props.certificate.map((cert, i) => {
           return (
             <div key={`sertifikat-${i}`} className="col-12 col-md-6">
-              <div className="card rounded-5 my-2">
+              <div className="card rounded-5 py-3 my-2" style={{height:'98%'}}>
                 <img
                   src={cert.gambar}
                   className="card-img-top img-fluid px-3 pt-2"
+                  // style={{
+                  //   width: "500px",
+                  //   height: "300px",
+                  //   // objectFit: "cover",
+                  // }}
                   alt={cert.judul}
                 />
                 <div className="card-body">
