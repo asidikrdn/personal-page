@@ -201,7 +201,7 @@ const UserData = {
     codepen: "https://codepen.io/asidikrdn",
   },
   resume:
-    "https://drive.google.com/file/d/1sSn7iLJ8NThzR7OcmNKwa1Fz43EjNS7W/view?usp=sharing",
+    "https://drive.google.com/file/d/1uSrHxAJ2rcZaeNVSfihRmsLC0Khoq41Z/view?usp=sharing",
 };
 // ====================
 // End of Data User
