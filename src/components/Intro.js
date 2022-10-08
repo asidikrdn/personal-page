@@ -40,6 +40,7 @@ const Intro = (props) => {
               el.search(/CSS/i) !== -1 ||
               el.search(/Bootstrap/i) !== -1 ||
               el.search(/Javascript/i) !== -1 ||
+              el.search(/ReactBootstrap/i) !== -1 ||
               el.search(/ReactJS/i) !== -1
             ) {
               return <b key={Math.random()}>{el} </b>;

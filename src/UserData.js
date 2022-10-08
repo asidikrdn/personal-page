@@ -13,7 +13,7 @@ const UserData = {
 
     `I am interested in becoming a Professional Front-End Web Developer. 
     I have studied some basic web programming materials such as HTML, CSS, and Javascript. 
-    I also studied some Front-End Web Development Libraries like Bootstrap and ReactJS.`,
+    I also studied some Front-End Web Development Libraries like Bootstrap, ReactBootstrap and ReactJS.`,
 
     `And now I am very fully prepared and looking forward to new challenges in my Front-End Web Development
     career.`,
@@ -35,6 +35,15 @@ const UserData = {
     },
   ],
   sertifikasi: [
+    {
+      judul: "React JS",
+      nomor: "00019110006/NIOMIC/IX/2022",
+      penerbit: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+      "waktu-terbit": "October 2022",
+      keahlian: ["html5", "css3", "js", "react", "bootstrap"],
+      tautan: "https://certified.niomic.com/?number=00019110006/NIOMIC/IX/2022",
+      gambar: "../img/NIOMIC-React_JS.jpg",
+    },
     {
       judul: "React (Basic)",
       nomor: "c337ec334756",
@@ -139,11 +148,18 @@ const UserData = {
   ],
   portfolio: [
     {
+      judul: "YouNoob",
+      gambar: "../img/younoob.png",
+      deskripsi:
+        "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
+      teknologi: ["html5", "css3", "bootstrap", "js", "react"],
+      repositori: "https://github.com/asidikrdn/YouNoob",
+      demo: "https://younoob.netlify.app/",
+    },
+    {
       judul: "Mini Expense Tracker",
       gambar: "../img/mini-expense-tracker.png",
-      deskripsi: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, 
-      aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih 
-      antara keduanya.`,
+      deskripsi: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih antara keduanya.`,
       teknologi: ["html5", "css3", "bootstrap", "react"],
       repositori: "https://github.com/asidikrdn/mini-expense-tracker",
       demo: "https://mini-expense-tracker.netlify.app/",
@@ -151,10 +167,7 @@ const UserData = {
     {
       judul: "CRUD Mahasiswa",
       gambar: "../img/crud-mahasiswa.png",
-      deskripsi: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. 
-      Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. 
-      Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, 
-      CRUD ini hanya disimpan di memory saja.`,
+      deskripsi: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, CRUD ini hanya disimpan di memory saja.`,
       teknologi: ["html5", "css3", "bootstrap", "react"],
       repositori: "https://github.com/asidikrdn/mini-crud-mahasiswa",
       demo: "https://mini-crud-mahasiswa.netlify.app/",
@@ -163,10 +176,7 @@ const UserData = {
       judul: "Sistem Informasi Laundry",
       gambar: "../img/sistem-informasi-laundry.png",
       deskripsi: `Aplikasi sederhana untuk mengelola usaha laundry. 
-      Fitur utama yang terdapat pada aplikasi ini diantaranya Tampilan Dashboard, Daftar Layanan, 
-      Daftar Pelanggan, Daftar Transaksi, Daftar Petugas, dan Cetak Invoice.
-      Pada aplikasi ini terdapat 2 role user, yaitu admin dan karyawan dimana masing-masing role memiliki hak akses yang berbeda. 
-      Informasi lebih lanjut dapat dilihat pada repository.`,
+      Fitur utama yang terdapat pada aplikasi ini diantaranya : \n-Tampilan Dashboard \n-Daftar Layanan \n-Daftar Pelanggan \n-Daftar Transaksi \n-Daftar Petugas \n-dan Cetak Invoice. \n\nPada aplikasi ini terdapat 2 role user, yaitu admin dan karyawan dimana masing-masing role memiliki hak akses yang berbeda. Informasi lebih lanjut dapat dilihat pada repository.`,
       teknologi: ["html5", "css3", "bootstrap", "php"],
       repositori: "https://gitlab.com/asidikrdn/PPW_LaViola-Laundry",
       demo: "https://project.bakulkode.web.id/laviola/",
@@ -174,10 +184,7 @@ const UserData = {
     {
       judul: "Landing Page",
       gambar: "../img/landingpage.png",
-      deskripsi: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. 
-      Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, 
-      karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. 
-      Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
+      deskripsi: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
       teknologi: ["html5", "css3", "bootstrap"],
       repositori: "https://gitlab.com/asidikrdn/template-landingpage",
       demo: "https://template-landingpage.netlify.app/",

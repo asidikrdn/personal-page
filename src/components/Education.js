@@ -24,9 +24,9 @@ const Education = (props) => {
                 />
                 <h1 className="text-center">{data.institusi}</h1>
                 <h3 className="lead text-center">{data.jurusan}</h3>
-                <h5>
+                {/* <h5>
                   GPA : <span className="lead">{data.ipk}</span>
-                </h5>
+                </h5> */}
                 <hr className="w-100" />
                 <h3>{data["tahun-belajar"]}</h3>
               </div>
