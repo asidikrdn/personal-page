@@ -12,7 +12,7 @@ const Portfolio = (props) => {
         {props.portfolio.map((data, index) => {
           return (
             <div key={`portfolio-${index}`} className="col-12 col-md-6">
-              <div className="card rounded-5 my-2" style={{ height: "750px" }}>
+              <div className="card rounded-5 my-2" style={{ height: "98%" }}>
                 <img
                   src={data.gambar}
                   className="card-img-top img-fluid px-3 pt-2"
@@ -20,7 +20,10 @@ const Portfolio = (props) => {
                 />
                 <div className="card-body">
                   <h2 className="card-title text-center">{data.judul}</h2>
-                  <div style={{ height: "200px", overflow: "scroll" }} className='py-2'>
+                  <div
+                    style={{ height: "200px", overflow: "scroll" }}
+                    className="py-2"
+                  >
                     {data.deskripsi.split("\n").map((el, i) => {
                       let textDesc;
                       if (el === "") {
