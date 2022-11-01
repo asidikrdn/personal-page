@@ -1,5 +1,5 @@
 import { useEffect, useContext } from "react";
-import { MainContext } from "../App";
+import { MainContext } from "../store/Store";
 import { setPagePosition } from "../store/actions";
 
 const Contact = () => {
