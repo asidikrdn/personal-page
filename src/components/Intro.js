@@ -1,10 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MainContext } from "../App";
+import { setPagePosition } from "../store/actions";
 
-const Intro = (props) => {
+const Intro = () => {
+  const [state, dispatch] = useContext(MainContext);
+
   // console.log(props.intro);
   useEffect(() => {
-    props.setPagePosition("intro");
-  }, [props]);
+    dispatch(setPagePosition("intro"));
+  }, [dispatch]);
 
   return (
     <section id="intro" className="container-fluid py-2 px-4">
@@ -12,19 +16,21 @@ const Intro = (props) => {
       <div className="container-fluid w-100 d-flex flex-column text-center d-block d-md-none">
         {/* <h1 className=" pt-5">{props.fullname}</h1> */}
         <img
-          src={props.img}
+          src={state.userData["foto-profil"]}
           alt="Foto Profil"
           className="img-fluid w-75 my-auto mx-auto rounded-circle"
         />
-        <h1 className="display-2 fw-bold judulHalaman">{props.fullname}</h1>
-        <h5 className="opacity-75 mt-0 mb-4">{props.role}</h5>
+        <h1 className="display-2 fw-bold judulHalaman">
+          {state.userData["nama-lengkap"]}
+        </h1>
+        <h5 className="opacity-75 mt-0 mb-4">{state.userData.peran}</h5>
       </div>
       {/* Akhir tambahan untuk tampilan mobile */}
 
       <h1 className="display-2 fw-bold judulHalaman d-none d-md-block">
-        Hi, I'm {props.name}
+        Hi, I'm {state.userData["nama-panggilan"]}
       </h1>
-      {props.intro.map((element, index) => {
+      {state.userData.intro.map((element, index) => {
         let text;
         if (
           element.search(/HTML/i) !== -1 ||

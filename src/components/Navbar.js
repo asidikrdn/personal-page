@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
-const Navbar = (props) => {
+import React, { useContext } from "react";
+import { MainContext } from "../App";
+
+const Navbar = () => {
+  const [state] = useContext(MainContext);
+
   return (
     <>
       {/* Navbar Dekstop */}
@@ -11,7 +16,7 @@ const Navbar = (props) => {
                 <p
                   id="intro"
                   className={`nav-link mb-0 
-                  ${props.active === "intro" && "active"}`}
+                  ${state.pagePosition === "intro" && "active"}`}
                 >
                   Intro
                 </p>
@@ -21,7 +26,7 @@ const Navbar = (props) => {
               <Link style={{ all: "unset" }} to="/education">
                 <p
                   className={`nav-link mb-0 
-                  ${props.active === "education" && "active"}`}
+                  ${state.pagePosition === "education" && "active"}`}
                   id="education"
                 >
                   Education
@@ -33,7 +38,7 @@ const Navbar = (props) => {
                 <p
                   id="certification"
                   className={`nav-link mb-0 
-                  ${props.active === "certification" && "active"}`}
+                  ${state.pagePosition === "certification" && "active"}`}
                 >
                   Certification
                 </p>
@@ -44,7 +49,7 @@ const Navbar = (props) => {
                 <p
                   id="portfolio"
                   className={`nav-link mb-0 
-                  ${props.active === "portfolio" && "active"}`}
+                  ${state.pagePosition === "portfolio" && "active"}`}
                 >
                   Portfolio
                 </p>
@@ -55,7 +60,7 @@ const Navbar = (props) => {
                 <p
                   id="contact"
                   className={`nav-link mb-0 
-                  ${props.active === "contact" && "active"}`}
+                  ${state.pagePosition === "contact" && "active"}`}
                 >
                   Contact
                 </p>
@@ -75,7 +80,7 @@ const Navbar = (props) => {
                 <p
                   id="intro"
                   className={`nav-link mb-0 
-                  ${props.active === "intro" && "active"}`}
+                  ${state.pagePosition === "intro" && "active"}`}
                 >
                   <i className="fa-solid fa-house-user"></i>
                 </p>
@@ -85,7 +90,7 @@ const Navbar = (props) => {
               <Link style={{ all: "unset" }} to="/education">
                 <p
                   className={`nav-link mb-0 
-                  ${props.active === "education" && "active"}`}
+                  ${state.pagePosition === "education" && "active"}`}
                   id="education"
                 >
                   <i className="fa-solid fa-user-graduate"></i>
@@ -97,7 +102,7 @@ const Navbar = (props) => {
                 <p
                   id="certification"
                   className={`nav-link mb-0 
-                  ${props.active === "certification" && "active"}`}
+                  ${state.pagePosition === "certification" && "active"}`}
                 >
                   <i className="fa-solid fa-certificate"></i>
                 </p>
@@ -108,7 +113,7 @@ const Navbar = (props) => {
                 <p
                   id="portfolio"
                   className={`nav-link mb-0 
-                  ${props.active === "portfolio" && "active"}`}
+                  ${state.pagePosition === "portfolio" && "active"}`}
                 >
                   <i className="fa-solid fa-laptop-code"></i>
                 </p>
@@ -119,7 +124,7 @@ const Navbar = (props) => {
                 <p
                   id="contact"
                   className={`nav-link mb-0 
-                  ${props.active === "contact" && "active"}`}
+                  ${state.pagePosition === "contact" && "active"}`}
                 >
                   <i className="fa-solid fa-address-book"></i>
                 </p>
