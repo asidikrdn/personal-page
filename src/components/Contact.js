@@ -1,19 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MainContext } from "../App";
+import { setPagePosition } from "../store/actions";
 
-const Contact = (props) => {
+const Contact = () => {
+  const [state, dispatch] = useContext(MainContext);
+
   useEffect(() => {
-    props.setPagePosition("contact");
-  }, [props]);
+    dispatch(setPagePosition("contact"));
+  }, [dispatch]);
 
   return (
     <section id="contact" className="container-fluid">
       <div className="row pb-3">
         <div className="col-12 text-center my-5 pb-5">
           <h1 className="text-center display-1 judulHalaman fw-semibold">
-            {props.name}
+            {state.userData["nama-lengkap"]}
           </h1>
           <a
-            href={`https://wa.me/${props.contact.telepon}`}
+            href={`https://wa.me/${state.userData.kontak.telepon}`}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"
@@ -21,7 +25,7 @@ const Contact = (props) => {
             <h1>Hire Me</h1>
           </a>
           <a
-            href={props.resumeLink}
+            href={state.userData.resumeLink}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"
@@ -36,25 +40,25 @@ const Contact = (props) => {
               <i className="fa-solid fa-location-dot me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>{props.contact.alamat}</p>
+              <p>{state.userData.kontak.alamat}</p>
             </div>
             <div className="col-2 text-center">
               <i className="fa-solid fa-envelope me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>{props.contact.email}</p>
+              <p>{state.userData.kontak.email}</p>
             </div>
             <div className="col-2 text-center">
               <i className="fa-brands fa-whatsapp me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>+{props.contact.telepon}</p>
+              <p>+{state.userData.kontak.telepon}</p>
             </div>
           </div>
         </div>
         <div className="col-12 col-md-6 px-5">
           <h1 className="fw-semibold text-center mb-3 display-5">Follow Me</h1>
-          <div className="d-flex justify-content-center display-3">
+          <div className="d-flex justify-content-center display-3 follow-me">
             <a
               href="https://www.github.com/asidikrdn/"
               target="_blank"

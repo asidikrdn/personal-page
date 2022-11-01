@@ -1,16 +1,20 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MainContext } from "../App";
+import { setPagePosition } from "../store/actions";
 
-const Education = (props) => {
-  // console.log(props.education);
+const Education = () => {
+  const [state, dispatch] = useContext(MainContext);
+
+  // console.log(state.userData.education);
   useEffect(() => {
-    props.setPagePosition("education");
-  }, [props]);
+    dispatch(setPagePosition("education"));
+  }, [dispatch]);
 
   return (
     <section id="education" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Education</h1>
       <div className="row">
-        {props.education.map((data, index) => {
+        {state.userData.edukasi.map((data, index) => {
           return (
             <div key={index} className="col-12 col-md-6 px-5 py-3">
               <div

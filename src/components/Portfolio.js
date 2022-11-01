@@ -1,15 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MainContext } from "../App";
+import { setPagePosition } from "../store/actions";
 
-const Portfolio = (props) => {
+const Portfolio = () => {
+  const [state, dispatch] = useContext(MainContext);
+
   useEffect(() => {
-    props.setPagePosition("portfolio");
-  }, [props]);
+    dispatch(setPagePosition("portfolio"));
+  }, [dispatch]);
 
   return (
     <section id="portfolio" className="container-fluid py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Portfolio</h1>
       <div className="row">
-        {props.portfolio.map((data, index) => {
+        {state.userData.portfolio.map((data, index) => {
           return (
             <div key={`portfolio-${index}`} className="col-12 col-md-6">
               <div className="card rounded-5 my-2" style={{ height: "98%" }}>

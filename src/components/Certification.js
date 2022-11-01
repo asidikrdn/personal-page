@@ -1,9 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { MainContext } from "../App";
+import { setPagePosition } from "../store/actions";
 
-const Certification = (props) => {
+const Certification = () => {
+  const [state, dispatch] = useContext(MainContext);
+
   useEffect(() => {
-    props.setPagePosition("certification");
-  }, [props]);
+    dispatch(setPagePosition("certification"));
+  }, [dispatch]);
 
   return (
     <section id="certification" className="container-fluid py-2">
@@ -11,10 +15,13 @@ const Certification = (props) => {
         Certification
       </h1>
       <div className="row">
-        {props.certificate.map((cert, i) => {
+        {state.userData.sertifikasi.map((cert, i) => {
           return (
             <div key={`sertifikat-${i}`} className="col-12 col-md-6">
-              <div className="card rounded-5 py-3 my-2" style={{height:'98%'}}>
+              <div
+                className="card rounded-5 py-3 my-2"
+                style={{ height: "98%" }}
+              >
                 <img
                   src={cert.gambar}
                   className="card-img-top img-fluid px-3 pt-2"
