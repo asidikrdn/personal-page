@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MainContext } from "../App";
+import { MainContext } from "../store/Store";
 
 const Header = () => {
   const [state] = useContext(MainContext);
