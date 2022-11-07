@@ -18,17 +18,17 @@ const Portfolio = () => {
             <div key={`portfolio-${index}`} className="col-12 col-md-6">
               <div className="card rounded-5 my-2" style={{ height: "98%" }}>
                 <img
-                  src={data.gambar}
+                  src={data.picture}
                   className="card-img-top img-fluid px-3 pt-2"
-                  alt={data.judul}
+                  alt={data.title}
                 />
                 <div className="card-body">
-                  <h2 className="card-title text-center">{data.judul}</h2>
+                  <h2 className="card-title text-center">{data.title}</h2>
                   <div
-                    style={{ height: "200px", overflow: "scroll" }}
+                    style={{ height: "200px", overflowY: "scroll" }}
                     className="py-2"
                   >
-                    {data.deskripsi.split("\n").map((el, i) => {
+                    {data.desc.split("\n").map((el, i) => {
                       let textDesc;
                       if (el === "") {
                         textDesc = <small>&nbsp;</small>;
@@ -41,7 +41,7 @@ const Portfolio = () => {
                     })}
                   </div>
                   {/* <p className="card-text">
-                    {data.deskripsi.split("\n").map((el) => {
+                    {data.desc.split("\n").map((el) => {
                       let textDesc;
                       el === "&nbsp;"
                         ? (textDesc = <small>&nbsp;</small>)
@@ -51,7 +51,7 @@ const Portfolio = () => {
                   </p> */}
                   <h5 className="text-center mt-4">Tech Stack</h5>
                   <p className="card-text display-6 text-center my-3">
-                    {data.teknologi.map((tech, index) => (
+                    {data.tech.map((tech, index) => (
                       <i
                         key={`tech-${index}`}
                         className={`fa-brands fa-${tech} mx-3`}

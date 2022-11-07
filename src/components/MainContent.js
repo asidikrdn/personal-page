@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Intro from "./Intro";
 import Education from "./Education";
-import Certification from "./Certification";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 const MainContent = () => {
   return (
@@ -15,7 +15,7 @@ const MainContent = () => {
         <Route path="/education" element={<Education />} />
       </Routes>
       <Routes>
-        <Route path="/certification" element={<Certification />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Routes>
         <Route path="/portfolio" element={<Portfolio />} />

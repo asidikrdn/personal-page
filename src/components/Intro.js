@@ -16,19 +16,19 @@ const Intro = () => {
       <div className="container-fluid w-100 d-flex flex-column text-center d-block d-md-none">
         {/* <h1 className=" pt-5">{props.fullname}</h1> */}
         <img
-          src={state.userData["foto-profil"]}
+          src={state.userData.profilPict}
           alt="Foto Profil"
           className="img-fluid w-75 my-auto mx-auto rounded-circle"
         />
         <h1 className="display-2 fw-bold judulHalaman">
           {state.userData["nama-lengkap"]}
         </h1>
-        <h5 className="opacity-75 mt-0 mb-4">{state.userData.peran}</h5>
+        <h5 className="opacity-75 mt-0 mb-4">{state.userData.role}</h5>
       </div>
       {/* Akhir tambahan untuk tampilan mobile */}
 
       <h1 className="display-2 fw-bold judulHalaman d-none d-md-block">
-        Hi, I'm {state.userData["nama-panggilan"]}
+        Hi, I'm {state.userData["short-name"]}
       </h1>
       {state.userData.intro.map((element, index) => {
         let text;
