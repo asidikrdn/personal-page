@@ -14,10 +14,10 @@ const Contact = () => {
       <div className="row pb-3">
         <div className="col-12 text-center my-5 pb-5">
           <h1 className="text-center display-1 judulHalaman fw-semibold">
-            {state.userData["nama-lengkap"]}
+            {state.userData.fullname}
           </h1>
           <a
-            href={`https://wa.me/${state.userData.kontak.telepon}`}
+            href={`https://wa.me/${state.userData.contact.phone}`}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"
@@ -25,7 +25,7 @@ const Contact = () => {
             <h1>Hire Me</h1>
           </a>
           <a
-            href={state.userData.resumeLink}
+            href={state.userData.cv}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"
@@ -40,19 +40,19 @@ const Contact = () => {
               <i className="fa-solid fa-location-dot me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>{state.userData.kontak.alamat}</p>
+              <p>{state.userData.contact.address}</p>
             </div>
             <div className="col-2 text-center">
               <i className="fa-solid fa-envelope me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>{state.userData.kontak.email}</p>
+              <p>{state.userData.contact.email}</p>
             </div>
             <div className="col-2 text-center">
               <i className="fa-brands fa-whatsapp me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
-              <p>+{state.userData.kontak.telepon}</p>
+              <p>+{state.userData.contact.phone}</p>
             </div>
           </div>
         </div>

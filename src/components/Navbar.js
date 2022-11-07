@@ -34,13 +34,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link style={{ all: "unset" }} to="/certification">
+              <Link style={{ all: "unset" }} to="/skills">
                 <p
-                  id="certification"
+                  id="skills"
                   className={`nav-link mb-0 
-                  ${state.pagePosition === "certification" && "active"}`}
+                  ${state.pagePosition === "skills" && "active"}`}
                 >
-                  Certification
+                  Skills
                 </p>
               </Link>
             </li>
@@ -98,11 +98,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item mx-3">
-              <Link style={{ all: "unset" }} to="/certification">
+              <Link style={{ all: "unset" }} to="/skills">
                 <p
-                  id="certification"
+                  id="skills"
                   className={`nav-link mb-0 
-                  ${state.pagePosition === "certification" && "active"}`}
+                  ${state.pagePosition === "skills" && "active"}`}
                 >
                   <i className="fa-solid fa-certificate"></i>
                 </p>
