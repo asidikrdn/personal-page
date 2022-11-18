@@ -60,7 +60,7 @@ const Portfolio = () => {
                   </p>
                   <div className="d-flex justify-content-center mt-4">
                     <a
-                      href={data.repositori}
+                      href={data.repository}
                       target="_blank"
                       rel="noreferrer"
                       className="btn btn-outline-secondary mx-3"
