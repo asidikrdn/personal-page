@@ -2,19 +2,18 @@ export const initialState = {
   userData: {
     fullname: "Ahmad Sidik Rudini",
     "short-name": "Sidik",
-    role: "Front-End Web Developer",
+    role: "Fullstack Web Developer",
     profilPict: "../img/profil.jpg",
     intro: [
       `I'am a student of Informatics Engineering (extension class) at Ibn Khaldun University. 
     The activity that I do apart from being a student is actively learning web programming independently to increase my skills. 
     From these activities, I have created several simple static and dynamic web pages.`,
 
-      `I am interested in becoming a Professional Front-End Web Developer. 
-    I have studied some basic web programming materials such as HTML, CSS, and Javascript. 
-    I also studied some Front-End Web Development Libraries like Bootstrap, ReactBootstrap and ReactJS.`,
+      `I am interested in becoming a Professional Fullstack Developer. 
+    I have studied some basic Front-End Web Development materials such as HTML, CSS, and Javascript Bootstrap, and ReactJS.
+    I also studied Back-End Web Development materials uses Go language and database PostgreeSQL.`,
 
-      `And now I am very fully prepared and looking forward to new challenges in my Front-End Web Development
-    career.`,
+      `And now I am very fully prepared and looking forward to new challenges in my Fullstack Web Development career.`,
     ],
     education: [
       {
@@ -58,8 +57,19 @@ export const initialState = {
         role: "BackEnd Web Development",
         tech: [
           "Go",
-          ["Fundamentals", "Goroutines", "Go Web Template", "HTTP Method"],
-          "MySQL",
+          [
+            "Fundamentals",
+            "Web template & Conditional rendering",
+            "Routing uses gorilla/mux",
+            "Handle file upload",
+            "API server",
+            "Database connection (PostgreeSQL & MySQL)",
+            "Encryption uses bycrypt",
+            "Auth uses gorilla/sessions",
+            "Auth uses JWT",
+          ],
+          "Database",
+          ["Data Modeling", "DDL & DML", "Table Relation"],
         ],
       },
     ],
