@@ -51,6 +51,14 @@ export const initialState = {
             "State Management uses contextAPI + Reducer",
             "Consume API uses fetchAPI()",
           ],
+          "React Native",
+          [
+            "State",
+            "Props",
+            "Lifecycle",
+            "useEffect",
+            "Using Native Base library",
+          ],
         ],
       },
       {
