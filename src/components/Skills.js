@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="row">
           {state.userData.skills.map((skill) => {
             return (
-              <div className="col-6 px-5">
+              <div className="col-12 col-lg-6 px-5 py-2">
                 <div
                   className="card mx-2 rounded-5 border-success"
                   style={{ boxShadow: "3px 3px 5px 1px #005D66" }}

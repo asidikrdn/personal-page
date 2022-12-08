@@ -37,7 +37,11 @@ const Intro = () => {
           element.search(/CSS/) !== -1 ||
           element.search(/Bootstrap/i) !== -1 ||
           element.search(/Javascript/i) !== -1 ||
-          element.search(/ReactJS/i) !== -1
+          element.search(/ReactJS/i) !== -1 ||
+          element.search(/Go/i) !== -1 ||
+          element.search(/cors/i) !== -1 ||
+          element.search(/api/i) !== -1 ||
+          element.search(/PostgreeSQL/i) !== -1
         ) {
           text = element.split(" ");
           text = text.map((el) => {
@@ -47,7 +51,11 @@ const Intro = () => {
               el.search(/Bootstrap/i) !== -1 ||
               el.search(/Javascript/i) !== -1 ||
               el.search(/ReactBootstrap/i) !== -1 ||
-              el.search(/ReactJS/i) !== -1
+              el.search(/ReactJS/i) !== -1 ||
+              el.search(/Go/i) !== -1 ||
+              el.search(/cors/i) !== -1 ||
+              el.search(/api/i) !== -1 ||
+              el.search(/PostgreeSQL/i) !== -1
             ) {
               return <b key={Math.random()}>{el} </b>;
             } else {
