@@ -17,7 +17,8 @@ const Contact = () => {
             {state.userData.fullname}
           </h1>
           <a
-            href={`https://wa.me/${state.userData.contact.phone}`}
+            // href={`https://wa.me/${state.userData.contact.phone}`}
+            href={`mailto:${state.userData.contact.email}?`}
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-success m-3 rounded-4"
@@ -48,12 +49,12 @@ const Contact = () => {
             <div className="col-10">
               <p>{state.userData.contact.email}</p>
             </div>
-            <div className="col-2 text-center">
+            {/* <div className="col-2 text-center">
               <i className="fa-brands fa-whatsapp me-md-2 me-1 display-6"></i>
             </div>
             <div className="col-10">
               <p>+{state.userData.contact.phone}</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-12 col-md-6 px-5">
