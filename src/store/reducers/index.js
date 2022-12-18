@@ -185,7 +185,7 @@ export const initialState = {
       {
         title: "DeWe Tour",
         picture: "../img/dewetour.png",
-        desc: "DeWe Tour adalah sebuah aplikasi untuk mengelola tour dan travel",
+        desc: "Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand. this app build using node js, postgres, express, next js",
         tech: ["html5", "css3", "bootstrap", "js", "react"],
         repository: "https://github.com/asidikrdn",
         demo: "https://dewetour-asidikrdn.netlify.app/",
@@ -201,7 +201,7 @@ export const initialState = {
       {
         title: "Mini Expense Tracker",
         picture: "../img/mini-expense-tracker.png",
-        desc: `"Expense Tracker" merujuk ke sistem pencatatan pengeluaran, aplikasi ini akan menyimpan pemasukan dan pengeluaran user serta menampilkan total selisih antara keduanya.`,
+        desc: `"Expense Tracker" refers to an expense recording system, this application will store the user's income and expenses and display the total difference between the two.`,
         tech: ["html5", "css3", "bootstrap", "react"],
         repository: "https://github.com/asidikrdn/mini-expense-tracker",
         demo: "https://mini-expense-tracker.netlify.app/",
@@ -209,7 +209,7 @@ export const initialState = {
       {
         title: "CRUD Mahasiswa",
         picture: "../img/crud-mahasiswa.png",
-        desc: `Dalam programming, CRUD merupakan singkatan dari Create Read Update dan Delete. Yakni aplikasi yang berisi pengolahan data. Biasanya CRUD butuh database sebagai media penyimpanan. Akan tetapi untuk sementara ini app CRUD Mahasiswa lebih fokus ke kode React, CRUD ini hanya disimpan di memory saja.`,
+        desc: `In programming, CRUD stands for Create, Read, Update and Delete. Namely the application that contains data processing. Usually CRUD needs a database as a storage medium. However, for the time being the Student CRUD app is more focused on React code, this CRUD is only stored in memory.`,
         tech: ["html5", "css3", "bootstrap", "react"],
         repository: "https://github.com/asidikrdn/mini-crud-mahasiswa",
         demo: "https://mini-crud-mahasiswa.netlify.app/",
@@ -217,8 +217,8 @@ export const initialState = {
       {
         title: "Sistem Informasi Laundry",
         picture: "../img/sistem-informasi-laundry.png",
-        desc: `Aplikasi sederhana untuk mengelola usaha laundry. 
-      Fitur utama yang terdapat pada aplikasi ini diantaranya : \n-Tampilan Dashboard \n-Daftar Layanan \n-Daftar Pelanggan \n-Daftar Transaksi \n-Daftar Petugas \n-dan Cetak Invoice. \n\nPada aplikasi ini terdapat 2 role user, yaitu admin dan karyawan dimana masing-masing role memiliki hak akses yang berbeda. Informasi lebih lanjut dapat dilihat pada repository.`,
+        desc: `A simple application for managing a laundry business.
+        The main features contained in this application include: \n-Dashboard View \n-Service List \n-Customer List \n-Transaction List \n-Officer List \n-And Print Invoices. \n\nIn this application there are 2 user roles, namely admin and employees where each role has different access rights. Further information can be seen in the repository.`,
         tech: ["html5", "css3", "bootstrap", "php"],
         repository: "https://gitlab.com/asidikrdn/PPW_LaViola-Laundry",
         demo: "https://project.bakulkode.web.id/laviola/",
@@ -226,7 +226,7 @@ export const initialState = {
       {
         title: "Landing Page",
         picture: "../img/landingpage.png",
-        desc: `Landing Page sederhana yang berisikan informasi perusahaan untuk menarik pelanggan. Untuk sementara ini data yang ada di dalam landing page masih bersifat dummy, karena proyek ini merupakan hasil belajar HTML CSS dan Bootstrap. Akan tetapi proyek ini dapat dijadikan template apabila ada proyek serupa kedepannya.`,
+        desc: `A simple landing page that contains company information to attract customers. For the time being, the data on the landing page is still dummy, because this project is the result of learning HTML, CSS and Bootstrap. However, this project can be used as a template if there are similar projects in the future.`,
         tech: ["html5", "css3", "bootstrap"],
         repository: "https://gitlab.com/asidikrdn/template-landingpage",
         demo: "https://template-landingpage.netlify.app/",
