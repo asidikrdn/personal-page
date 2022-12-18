@@ -83,6 +83,20 @@ export const initialState = {
     ],
     certificates: [
       {
+        title: "React Native Basic",
+        id: "00019310019/NIOMIC/XII/2022",
+        issuer: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+        issuedOn: "December 2022",
+        link: "https://certified.niomic.com/?number=00019310019/NIOMIC/XII/2022",
+      },
+      {
+        title: "Golang Basic",
+        id: "00019210015/NIOMIC/XII/2022",
+        issuer: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
+        issuedOn: "December 2022",
+        link: "https://certified.niomic.com/?number=00019210015/NIOMIC/XII/2022",
+      },
+      {
         title: "React JS",
         id: "00019110006/NIOMIC/IX/2022",
         issuer: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
@@ -169,13 +183,21 @@ export const initialState = {
     ],
     portfolio: [
       {
-        title: "YouNoob",
-        picture: "../img/younoob.png",
-        desc: "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
+        title: "DeWe Tour",
+        picture: "../img/dewetour.png",
+        desc: "DeWe Tour adalah sebuah aplikasi untuk mengelola tour dan travel",
         tech: ["html5", "css3", "bootstrap", "js", "react"],
-        repository: "https://github.com/asidikrdn/YouNoob",
-        demo: "https://younoob.netlify.app/",
+        repository: "https://github.com/asidikrdn",
+        demo: "https://dewetour-asidikrdn.netlify.app/",
       },
+      // {
+      //   title: "YouNoob",
+      //   picture: "../img/younoob.png",
+      //   desc: "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
+      //   tech: ["html5", "css3", "bootstrap", "js", "react"],
+      //   repository: "https://github.com/asidikrdn/YouNoob",
+      //   demo: "https://younoob.netlify.app/",
+      // },
       {
         title: "Mini Expense Tracker",
         picture: "../img/mini-expense-tracker.png",
