@@ -185,7 +185,7 @@ export const initialState = {
       {
         title: "DeWe Tour",
         picture: "../img/dewetour.png",
-        desc: "Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand. this app build using node js, postgres, express, next js",
+        desc: "Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.",
         tech: ["html5", "css3", "bootstrap", "js", "react"],
         repository: "https://github.com/asidikrdn",
         demo: "https://dewetour-asidikrdn.netlify.app/",
