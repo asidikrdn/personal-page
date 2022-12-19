@@ -83,14 +83,14 @@ export const initialState = {
     ],
     certificates: [
       {
-        title: "React Native Basic",
+        title: "Golang Basic",
         id: "00019310019/NIOMIC/XII/2022",
         issuer: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
         issuedOn: "December 2022",
         link: "https://certified.niomic.com/?number=00019310019/NIOMIC/XII/2022",
       },
       {
-        title: "Golang Basic",
+        title: "React Native Basic",
         id: "00019210015/NIOMIC/XII/2022",
         issuer: "NIOMIC - PT CERDASKAN GENERASI BANGSA",
         issuedOn: "December 2022",
