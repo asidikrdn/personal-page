@@ -1,6 +1,7 @@
 import { useEffect, useContext } from "react";
 import { MainContext } from "../store/Store";
 import { setPagePosition } from "../store/actions";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Contact = () => {
   const [state, dispatch] = useContext(MainContext);
@@ -10,9 +11,9 @@ const Contact = () => {
   }, [dispatch]);
 
   return (
-    <section id="contact" className="container-fluid">
-      <div className="row pb-3">
-        <div className="col-12 text-center my-5 pb-5">
+    <Container fluid id="contact">
+      <Row className="pb-3">
+        <Col xs={12} className="text-center my-5 pb-5">
           <h1 className="text-center display-1 judulHalaman fw-semibold">
             {state.userData.fullname}
           </h1>
@@ -33,31 +34,31 @@ const Contact = () => {
           >
             <h1>Download CV</h1>
           </a>
-        </div>
-        <div className="col-12 col-md-6 px-2 px-md-5">
+        </Col>
+        <Col xs={12} md={6} className="px-2 px-md-5">
           <h1 className="fw-semibold mb-4 display-5">Contact Details</h1>
-          <div className="row g-0 my-3 h3">
-            <div className="col-2 text-center">
+          <Row className="g-0 my-3 h3">
+            <Col xs={2} className="text-center">
               <i className="fa-solid fa-location-dot me-md-2 me-1 display-6"></i>
-            </div>
-            <div className="col-10">
+            </Col>
+            <Col xs={10}>
               <p>{state.userData.contact.address}</p>
-            </div>
-            <div className="col-2 text-center">
+            </Col>
+            <Col xs={2} className="text-center">
               <i className="fa-solid fa-envelope me-md-2 me-1 display-6"></i>
-            </div>
-            <div className="col-10">
+            </Col>
+            <Col xs={10}>
               <p>{state.userData.contact.email}</p>
-            </div>
-            {/* <div className="col-2 text-center">
+            </Col>
+            <Col xs={2} className="text-center">
               <i className="fa-brands fa-whatsapp me-md-2 me-1 display-6"></i>
-            </div>
-            <div className="col-10">
+            </Col>
+            <Col xs={10}>
               <p>+{state.userData.contact.phone}</p>
-            </div> */}
-          </div>
-        </div>
-        <div className="col-12 col-md-6 px-5">
+            </Col>
+          </Row>
+        </Col>
+        <Col xs={12} md={6} className="px-5">
           <h1 className="fw-semibold text-center mb-3 display-5">Follow Me</h1>
           <div className="d-flex justify-content-center display-3 follow-me">
             <a
@@ -93,9 +94,9 @@ const Contact = () => {
               <i className="fa-brands fa-codepen"></i>
             </a>
           </div>
-        </div>
-      </div>
-    </section>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

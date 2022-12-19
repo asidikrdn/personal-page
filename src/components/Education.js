@@ -1,6 +1,7 @@
 import { useEffect, useContext } from "react";
 import { MainContext } from "../store/Store";
 import { setPagePosition } from "../store/actions";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Education = () => {
   const [state, dispatch] = useContext(MainContext);
@@ -11,12 +12,12 @@ const Education = () => {
   }, [dispatch]);
 
   return (
-    <section id="education" className="container-fluid py-2">
+    <Container fluid id="education" className="py-2">
       <h1 className="display-2 fw-bold judulHalaman text-center">Education</h1>
-      <div className="row">
+      <Row>
         {state.userData.education.map((data, index) => {
           return (
-            <div key={index} className="col-12 col-md-6 px-5 py-3">
+            <Col xs={12} md={6} className="px-5 py-3">
               <div
                 className="d-flex flex-column align-items-center"
                 key={index}
@@ -34,11 +35,11 @@ const Education = () => {
                 <hr className="w-100" />
                 <h4>{data["year-of-study"]}</h4>
               </div>
-            </div>
+            </Col>
           );
         })}
-      </div>
-    </section>
+      </Row>
+    </Container>
   );
 };
 
