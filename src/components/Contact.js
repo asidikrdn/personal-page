@@ -50,12 +50,12 @@ const Contact = () => {
             <Col xs={10}>
               <p>{state.userData.contact.email}</p>
             </Col>
-            <Col xs={2} className="text-center">
+            {/* <Col xs={2} className="text-center">
               <i className="fa-brands fa-whatsapp me-md-2 me-1 display-6"></i>
             </Col>
             <Col xs={10}>
               <p>+{state.userData.contact.phone}</p>
-            </Col>
+            </Col> */}
           </Row>
         </Col>
         <Col xs={12} md={6} className="px-5">
