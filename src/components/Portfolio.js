@@ -1,10 +1,14 @@
-import { useEffect, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { MainContext } from "../store/Store";
 import { setPagePosition } from "../store/actions";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import PortfolioModal from "./PortfolioModal";
 
 const Portfolio = () => {
   const [state, dispatch] = useContext(MainContext);
+
+  const [showPortfolioModal, setShowPortfolioModal] = useState(false);
+  const [dataPortfolio, setDataPortfolio] = useState({});
 
   useEffect(() => {
     dispatch(setPagePosition("portfolio"));
@@ -12,6 +16,11 @@ const Portfolio = () => {
 
   return (
     <>
+      <PortfolioModal
+        showPortfolioModal={showPortfolioModal}
+        setShowPortfolioModal={setShowPortfolioModal}
+        dataPortfolio={dataPortfolio}
+      />
       <Container id="portfolio" fluid className="py-2">
         <h1 className="display-2 fw-bold judulHalaman text-center">
           Portfolio
@@ -20,7 +29,14 @@ const Portfolio = () => {
           {state.userData.portfolio.map((data, index) => {
             return (
               <Col key={`portfolio-${index}`} xs={12} md={4}>
-                <Card className="rounded-5 my-2" style={{ height: "98%" }}>
+                <Card
+                  className="rounded-5 my-2"
+                  style={{ height: "98%" }}
+                  onClick={() => {
+                    setDataPortfolio(data);
+                    setShowPortfolioModal(true);
+                  }}
+                >
                   <Card.Img
                     src={data.picture}
                     className="card-img-top img-fluid px-3 pt-2"
