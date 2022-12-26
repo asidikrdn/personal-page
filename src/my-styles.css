@@ -133,6 +133,16 @@
   #contact h1 {
     text-align: center;
   }
+  /* .portfolio-modal {
+    width: 90vw !important;
+    max-width: none !important;
+    height: 90vh !important;
+    background-color: transparent !important;
+  } */
+  .portfolio-modal .modal-content {
+    /* max-height: 90% !important; */
+    background-color: transparent !important;
+  }
   /* ================= */
   /* AKHIR MAIN */
   /* ================= */
