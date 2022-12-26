@@ -190,14 +190,14 @@ export const initialState = {
         repository: "https://github.com/asidikrdn",
         demo: "https://dewetour-asidikrdn.netlify.app/",
       },
-      // {
-      //   title: "YouNoob",
-      //   picture: "../img/younoob.png",
-      //   desc: "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
-      //   tech: ["html5", "css3", "bootstrap", "js", "react"],
-      //   repository: "https://github.com/asidikrdn/YouNoob",
-      //   demo: "https://younoob.netlify.app/",
-      // },
+      {
+        title: "YouNoob",
+        picture: "../img/younoob.png",
+        desc: "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
+        tech: ["html5", "css3", "bootstrap", "js", "react"],
+        repository: "https://github.com/asidikrdn/YouNoob",
+        demo: "https://younoob.netlify.app/",
+      },
       {
         title: "Mini Expense Tracker",
         picture: "../img/mini-expense-tracker.png",
