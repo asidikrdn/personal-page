@@ -187,7 +187,7 @@ export const initialState = {
         picture: "../img/dewetour.png",
         desc: "Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.",
         tech: ["html5", "css3", "bootstrap", "js", "react"],
-        repository: "https://github.com/asidikrdn",
+        repository: "",
         demo: "https://dewetour-asidikrdn.netlify.app/",
       },
       {
