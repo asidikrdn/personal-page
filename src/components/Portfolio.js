@@ -31,7 +31,7 @@ const Portfolio = () => {
               <Col key={`portfolio-${index}`} xs={12} md={4}>
                 <Card
                   className="rounded-5 my-2"
-                  style={{ height: "98%" }}
+                  style={{ height: "98%", cursor: "pointer" }}
                   onClick={() => {
                     setDataPortfolio(data);
                     setShowPortfolioModal(true);
