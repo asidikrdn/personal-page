@@ -50,6 +50,8 @@ export const initialState = {
             "State Management uses Redux",
             "State Management uses contextAPI + Reducer",
             "Consume API uses fetchAPI()",
+            "Consume API uses Axios & React Query",
+            "Payment integration uses Midtrans"
           ],
           "React Native",
           [
@@ -69,12 +71,15 @@ export const initialState = {
             "Fundamentals",
             "Web template & Conditional rendering",
             "Routing uses gorilla/mux",
-            "Handle file upload",
+            "Handle file upload (single and multiple)",
             "API server",
             "Database connection (PostgreeSQL & MySQL)",
             "Encryption uses bycrypt",
             "Auth uses gorilla/sessions",
             "Auth uses JWT",
+            "ORM uses GORM",
+            "Payment integration uses Midtrans",
+            "Asset management uses Cloudinary"
           ],
           "Database",
           ["Data Modeling", "DDL & DML", "Table Relation"],
