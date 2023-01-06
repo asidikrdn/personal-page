@@ -51,7 +51,7 @@ export const initialState = {
             "State Management uses contextAPI + Reducer",
             "Consume API uses fetchAPI()",
             "Consume API uses Axios & React Query",
-            "Payment integration uses Midtrans"
+            "Payment integration uses Midtrans",
           ],
           "React Native",
           [
@@ -79,7 +79,7 @@ export const initialState = {
             "Auth uses JWT",
             "ORM uses GORM",
             "Payment integration uses Midtrans",
-            "Asset management uses Cloudinary"
+            "Asset management uses Cloudinary",
           ],
           "Database",
           ["Data Modeling", "DDL & DML", "Table Relation"],
@@ -87,6 +87,13 @@ export const initialState = {
       },
     ],
     certificates: [
+      {
+        title: "Go (Basic)",
+        id: "917e890a80c5",
+        issuer: "HackerRank",
+        issuedOn: "January 2023",
+        link: "https://www.hackerrank.com/certificates/917e890a80c5",
+      },
       {
         title: "Golang Basic",
         id: "00019310019/NIOMIC/XII/2022",
@@ -247,7 +254,7 @@ export const initialState = {
       linkedin: "https://www.linkedin.com/in/asidikrdn/",
       codepen: "https://codepen.io/asidikrdn",
     },
-    cv: "https://drive.google.com/file/d/1uSrHxAJ2rcZaeNVSfihRmsLC0Khoq41Z/view?usp=sharing",
+    cv: "https://drive.google.com/file/d/1DTpZ7eEmpNdABQMqc72_6f_8pmKwSFpK/view?usp=share_link",
   },
   pagePosition: "intro",
 };
