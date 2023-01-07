@@ -5,15 +5,8 @@ export const initialState = {
     role: "Fullstack Web Developer",
     profilPict: "../img/profil.jpg",
     intro: [
-      `I'am a student of Informatics Engineering (extension class) at Ibn Khaldun University. 
-    The activity that I do apart from being a student is actively learning web programming independently to increase my skills. 
-    From these activities, I have created several simple static and dynamic web pages.`,
-
-      `I am interested in becoming a Professional Fullstack Developer. 
-    I have studied some basic Front-End Web Development materials such as HTML, CSS, and Javascript Bootstrap, and ReactJS.
-    I also studied Back-End Web Development materials uses Go language and database PostgreeSQL.`,
-
-      `And now I am very fully prepared and looking forward to new challenges in my Fullstack Web Development career.`,
+      `Fresh Graduate from Bootcamp Dumbways Indonesia. Have the skills to develop frontend and backend applications. Mastering HTML, CSS, Bootstrap, Javascript, and ReactJS for frontend development. Mastering backend development using Go and its libraries, connecting to MySQL and PostgreeSQL databases, using the gorm library for database migration, using jwt for authentication.`,
+      `Currently looking for work to become a Fullstack Developer.`,
     ],
     education: [
       {
@@ -254,7 +247,7 @@ export const initialState = {
       linkedin: "https://www.linkedin.com/in/asidikrdn/",
       codepen: "https://codepen.io/asidikrdn",
     },
-    cv: "https://drive.google.com/file/d/1DTpZ7eEmpNdABQMqc72_6f_8pmKwSFpK/view?usp=share_link",
+    cv: "https://drive.google.com/file/d/1guaesv3P10Vz5GxWo4UYpFXlJDjZFTlk/view?usp=share_link",
   },
   pagePosition: "intro",
 };
