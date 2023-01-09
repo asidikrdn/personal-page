@@ -190,15 +190,17 @@ export const initialState = {
       {
         title: "DeWe Tour",
         picture: "../img/dewetour.png",
-        desc: "Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.",
+        desc: `Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.
+        The main features in this application include: \n- Register new user (with email verification) \n- Login (user and admin) \n- Booking new trip (user) \n- Pay new transaction (using midtrans) \n- Save and continue to pay pending transaction (using midtrans) \n- Change profil pict (user) \n- Show all transaction (admin) \n- Approve/reject paid transaction (admin) \n- Show all user (admin) \n- Show all trips (admin) \n- Add/edit/delete country (admin) \n- Add new trip (admin). \n\nIn this app there are 2 user roles, that is admin and user, where each role has different access rights. Further information can be seen in the repository.
+        \n\nNOTE: \nThis demo version only uses ReactJS, to try the full version of this application, please clone the application from the repository and run it on your own pc`,
         tech: ["html5", "css3", "bootstrap", "js", "react"],
-        repository: "",
+        repository: "https://github.com/asidikrdn/dewe-tour",
         demo: "https://dewetour-asidikrdn.netlify.app/",
       },
       {
         title: "YouNoob",
         picture: "../img/younoob.png",
-        desc: "YouNoob merupakan sebuah Un-Official YouTube player yang mengizinkan pengguna untuk dapat melihat, mencari, dan memutar video selayaknya aplikasi YouTube Resmi. \n\nAplikasi ini dibuat dengan tujuan untuk latihan dan bahan portfolio semata, bukan untuk dikonsumsi secara masif oleh umum. Dimohon kerjasamanya untuk melihat/menggunakan aplikasi ini seperlunya saja. \n\n* Untuk sementara aplikasi baru berjalan dengan baik pada tampilan dekstop, tampilan versi mobile akan segera ditambahkan.",
+        desc: "YouNoob is Un-Official YouTube player that allow users to see, find, and play YouTube videos like YouTube Official App. \n\nThis app is created to improve my skill and add my portfolio, not for masif consumed by public. Please use this app only as needed. \n\n* For right now, this app only work propperly on dekstop mode, mobile version will be developed soon.",
         tech: ["html5", "css3", "bootstrap", "js", "react"],
         repository: "https://github.com/asidikrdn/YouNoob",
         demo: "https://younoob.netlify.app/",
