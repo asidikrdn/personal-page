@@ -188,6 +188,28 @@ export const initialState = {
     ],
     portfolio: [
       {
+        title: "WaysBeans",
+        picture: "../img/waysbeans.png",
+        desc: `WaysBeans is online shop that sells various kinds of the best Coffee Beans.
+        \nThe main features in this application include: 
+          \n- Register new user (with email verification) 
+          \n- Login (user and admin) 
+          \n- Add multiple product to cart with multiple qty on each product (user) 
+          \n- Pay new transaction on cart 
+          \n- Show all their transaction on transaction history 
+          \n- Save and continue to pay pending transaction on transaction history 
+          \n- Update user profile data 
+          \n- Show all transaction (admin) 
+          \n- Approve/reject paid transaction (admin) 
+          \n- Show all product (admin) 
+          \n- Add new product (admin) 
+          \n- Update some product (admin) 
+          \n- Delete some product (admin) 
+          \n\nIn this app there are 2 user roles, that is admin and user, where each role has different access rights. Further information can be seen in the repository.`,
+        tech: ["html5", "css3", "bootstrap", "js", "react", "golang"],
+        repository: "https://github.com/asidikrdn/waysbeans",
+      },
+      {
         title: "DeWe Tour",
         picture: "../img/dewetour.png",
         desc: `Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.
