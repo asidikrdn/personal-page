@@ -208,6 +208,7 @@ export const initialState = {
           \n\nIn this app there are 2 user roles, that is admin and user, where each role has different access rights. Further information can be seen in the repository.`,
         tech: ["html5", "css3", "bootstrap", "js", "react", "golang"],
         repository: "https://github.com/asidikrdn/waysbeans",
+        demo: "https://youtu.be/oHsc6NjnmKU",
       },
       {
         title: "DeWe Tour",
