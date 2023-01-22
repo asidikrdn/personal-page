@@ -72,7 +72,7 @@ const PortfolioModal = ({
                 ))}
               </Card.Text>
               <div className="d-flex justify-content-center mt-4">
-                {dataPortfolio.repository !== "" && (
+                {dataPortfolio.repository && (
                   <a
                     href={dataPortfolio.repository}
                     target="_blank"
@@ -82,7 +82,7 @@ const PortfolioModal = ({
                     Repository
                   </a>
                 )}
-                {dataPortfolio.demo !== "" && (
+                {dataPortfolio.demo && (
                   <a
                     href={dataPortfolio.demo}
                     target="_blank"
