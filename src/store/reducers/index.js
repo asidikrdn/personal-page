@@ -6,7 +6,7 @@ export const initialState = {
     profilPict: "../img/profil.jpg",
     intro: [
       `Fresh Graduate from Bootcamp Dumbways Indonesia. Have the skills to develop frontend and backend applications. Mastering HTML, CSS, Bootstrap, Javascript, and ReactJS for frontend development. Mastering backend development using Go and its libraries, connecting to MySQL and PostgreeSQL databases, using the gorm library for database migration, using jwt for authentication.`,
-      `Currently looking for work to become a Fullstack Developer.`,
+      `Currently looking for job to become a Fullstack Developer.`,
     ],
     education: [
       {
@@ -271,7 +271,7 @@ export const initialState = {
       linkedin: "https://www.linkedin.com/in/asidikrdn/",
       codepen: "https://codepen.io/asidikrdn",
     },
-    cv: "https://drive.google.com/file/d/1guaesv3P10Vz5GxWo4UYpFXlJDjZFTlk/view?usp=share_link",
+    cv: "https://drive.google.com/file/d/1oLMuGvvaHJurolaTBT9laCfD_mrn4OWd/view?usp=share_link",
   },
   pagePosition: "intro",
 };
