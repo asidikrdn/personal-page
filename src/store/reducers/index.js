@@ -272,7 +272,7 @@ export const initialState = {
       linkedin: "https://www.linkedin.com/in/asidikrdn/",
       codepen: "https://codepen.io/asidikrdn",
     },
-    cv: "https://drive.google.com/file/d/1oLMuGvvaHJurolaTBT9laCfD_mrn4OWd/view?usp=share_link",
+    cv: "https://drive.google.com/file/d/13lKrRklnv56DtsyBIfj0NohLOF-rxLNe/view?usp=share_link",
   },
   pagePosition: "intro",
 };
