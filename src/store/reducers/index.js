@@ -215,12 +215,15 @@ export const initialState = {
       {
         title: "DeWe Tour",
         picture: "../img/dewetour.png",
+        // desc: `Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.
+        // \nThe main features in this application include: \n- Register new user (with email verification) \n- Login (user and admin) \n- Booking new trip (user) \n- Pay new transaction (using midtrans) \n- Save and continue to pay pending transaction (using midtrans) \n- Change profil pict (user) \n- Show all transaction (admin) \n- Approve/reject paid transaction (admin) \n- Show all user (admin) \n- Show all trips (admin) \n- Add/edit/delete country (admin) \n- Add new trip (admin). \n\nIn this app there are 2 user roles, that is admin and user, where each role has different access rights. Further information can be seen in the repository.
+        // \n\nNOTE: \nThis demo version only uses ReactJS, to try the full version of this application, please clone the application from the repository and run it on your own pc`,
         desc: `Find beautiful place with dewe tour, Dewe Tour is an application to find beautiful places, just from your hand.
         \nThe main features in this application include: \n- Register new user (with email verification) \n- Login (user and admin) \n- Booking new trip (user) \n- Pay new transaction (using midtrans) \n- Save and continue to pay pending transaction (using midtrans) \n- Change profil pict (user) \n- Show all transaction (admin) \n- Approve/reject paid transaction (admin) \n- Show all user (admin) \n- Show all trips (admin) \n- Add/edit/delete country (admin) \n- Add new trip (admin). \n\nIn this app there are 2 user roles, that is admin and user, where each role has different access rights. Further information can be seen in the repository.
         \n\nNOTE: \nThis demo version only uses ReactJS, to try the full version of this application, please clone the application from the repository and run it on your own pc`,
         tech: ["html5", "css3", "bootstrap", "js", "react", "golang"],
         repository: "https://github.com/asidikrdn/dewe-tour",
-        demo: "https://dewetour-asidikrdn.netlify.app/",
+        demo: "https://dewetour-test.netlify.app/",
       },
       {
         title: "YouNoob",
