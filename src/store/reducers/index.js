@@ -5,8 +5,8 @@ export const initialState = {
     role: "Fullstack Web Developer",
     profilPict: "../img/profil.jpg",
     intro: [
-      `Fresh Graduate from Bootcamp Dumbways Indonesia. Have the skills to develop frontend and backend applications. Mastering HTML, CSS, Bootstrap, Javascript, and ReactJS for frontend development. Mastering backend development using Go and its libraries, connecting to MySQL and PostgreeSQL databases, using the gorm library for database migration, using jwt for authentication.`,
-      `Currently looking for job to become a Fullstack Developer.`,
+      `Hello! 👋 I'm a Fullstack Developer with a focus on Backend Development. I have expertise in Golang, Node.js, Rest API development, and managing SQL databases like MySQL, PostgreSQL, and Oracle. Docker? Yes, I'm proficient in that too! I have a wide range of experiences, like building Rest APIs with Golang and developing real-time applications using ReactJS, Node.js, and Socket.IO. I'm also passionate about contributing to the developer community by creating open-source packages for Golang application development.`,
+      `I enjoy finding innovative solutions and have a strong track record in Backend development. I'm ready to take on challenging projects and make a meaningful impact. 🚀`,
     ],
     education: [
       {
@@ -17,11 +17,25 @@ export const initialState = {
         logo: "../img/logo-smk3.png",
       },
       {
+        institute: "Dumbways Indonesia",
+        major: "Fullstack Developer",
+        grade: "95",
+        "year-of-study": "2022 - 2023",
+        logo: "../img/logo-dumbways.png",
+      },
+      {
         institute: "Ibn Khaldun University",
         major: "Informatics Engineering",
         grade: "3.83",
-        "year-of-study": "2020 - Now",
+        "year-of-study": "2020 - 2023",
         logo: "../img/logo-uika.png",
+      },
+      {
+        institute: "Cyber Asia University",
+        major: "Informatics",
+        grade: "4.00",
+        "year-of-study": "2023 - Now",
+        logo: "../img/logo-unsia.png",
       },
     ],
     skills: [
@@ -83,6 +97,12 @@ export const initialState = {
     ],
     certificates: [
       {
+        title: "Node (Basic)",
+        id: "CF9C58462772",
+        issuer: "HackerRank",
+        issuedOn: "August 2023",
+        link: "https://www.hackerrank.com/certificates/CF9C58462772",
+      },{
         title: "Go (Basic)",
         id: "917e890a80c5",
         issuer: "HackerRank",
